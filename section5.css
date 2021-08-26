@@ -1,0 +1,101 @@
+/* SECTION 5 START  */
+.section-5{
+    background-color: white;
+    position: relative;
+    padding: 6rem 2rem;
+  }
+
+  .section-5_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .section-5_container h1{
+   font-size:20px;
+  }
+
+  .section-5_container p{
+    max-width: 600px;
+    color: #53794c;
+  }
+
+  .section-5_content{
+    height: 70%;
+    margin-top: 50px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    
+  }
+
+  .card{
+    height: 26rem;
+    width: 18rem;
+    padding: 1rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 15%), 0 10px 25px 0 rgb(0 0 0 / 15%);
+    border-radius: 5px;
+    
+  }
+
+  .card img{
+    height: 12rem;
+    width: 100%;
+    text-align: center;
+   background-size:cover; 
+   border-radius: 5px; 
+   
+  }
+
+  .card-left_content h6{
+    color:  rgb(255, 85, 6);
+  }
+
+  .card-left_content p{
+    max-width: 600px;
+    color: #53794c;
+  }
+
+  .card-center_content h6{
+    color:  rgb(255, 85, 6);
+  }
+
+  .card-center_content p{
+    max-width: 600px;
+    color: #53794c;
+  }
+
+  .card-right_content h6{
+    color:  rgb(255, 85, 6);
+  }
+
+  .card-right_content p{
+    max-width: 600px;
+    color: #53794c;
+  }
+
+  @media screen and (max-width: 1100px)  {
+    .section-5_content{
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .card{
+      margin-bottom: 20px;
+    }
+    .card-left{
+      height: 50%;
+     background-image:  url("/pics/gym-trainer1.jpg");
+     background-size:cover; 
+     border-radius: 5px; 
+    }
+    
+  }
+
+  /* SECTION 5 END  */

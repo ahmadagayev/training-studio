@@ -1,0 +1,60 @@
+/* SECTION 2 START  */
+
+.section-2{
+    height: 60%;
+    margin: 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(90deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.7) 100%), url("/pics/gym-tools.jpg");
+    background-position: center;
+    position: relative;
+  }
+
+  .section-2_container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px;
+    color: rgb(255, 255, 255);
+  }
+
+  .section-2_container h2{
+    font-size: 30px;
+  }
+
+  .section-2_container p{
+    max-width: 600px;
+  }
+
+  .section-2_container .btn{
+    display: inline-block;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px 10px;
+    background-color: rgb(255, 85, 6);
+    position: relative;
+  }
+
+  @media screen and (max-width: 990px)  {
+    .section-2_container{
+      padding: 50px;
+    }
+
+    .section-2_container h2{
+      font-size: 20px;
+    }
+
+    .section-2_container p{
+      max-width: 500px;
+    }
+
+    .section-2_container .btn{
+      font-size: 10px;
+      padding: 10px 10px;
+      background-color: rgb(255, 85, 6);
+      position: relative;
+    }
+  }
+
+  /* SECTION 2 END  */
